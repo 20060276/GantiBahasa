@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ras_anjing"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="19sp"
+        android:layout_marginBottom="24dp"
+        />
+
+    <ImageView
+        android:id="@+id/gambarHewan"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/dog_kintamani"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="16dp"
+        />
+
+    <TextView
+        android:id="@+id/txJenis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jenis_hewan"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:id="@+id/txAsal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:padding="10dp"
+        android:text="@string/asal" />
+    <TextView
+        android:id="@+id/txDeskripsi"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/deskripsi_hewan" />
+
+
+</LinearLayout>
